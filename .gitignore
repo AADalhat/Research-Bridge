@@ -1,0 +1,27 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Frontend dependencies and generated files
+node_modules/
+.next/
+dist/
+coverage/
+
+# Local logs
+*.log
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
