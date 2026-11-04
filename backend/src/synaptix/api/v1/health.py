@@ -11,5 +11,5 @@ def health_check() -> dict[str, str]:
     """Confirm that the API is running."""
     return {
         "status": "ok",
-        "service": "synaptix-api",
+        "service": "research-bridge-api",
     }

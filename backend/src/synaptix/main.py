@@ -5,12 +5,9 @@ from synaptix.api.router import api_router
 
 def create_app() -> FastAPI:
     application = FastAPI(
-        title="Synaptix API",
+        title="Research Bridge API",
         version="0.1.0",
-        description=(
-            "AI-assisted research submission, tracking "
-            "and metadata processing."
-        ),
+        description="Research submission, review and repository preparation.",
     )
 
     application.include_router(api_router)
