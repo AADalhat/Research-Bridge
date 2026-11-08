@@ -1,0 +1,53 @@
+TAP version 13
+# Subtest: new uploads start processing immediately
+ok 1 - new uploads start processing immediately
+  ---
+  duration_ms: 3.558255
+  ...
+# Subtest: sample metadata is complete
+ok 2 - sample metadata is complete
+  ---
+  duration_ms: 0.573636
+  ...
+# Subtest: real files never receive fabricated extracted values
+ok 3 - real files never receive fabricated extracted values
+  ---
+  duration_ms: 0.244994
+  ...
+# Subtest: Other requires explanation and at least one item
+ok 4 - Other requires explanation and at least one item
+  ---
+  duration_ms: 0.137086
+  ...
+# Subtest: approval requires confirmed current file and revision
+ok 5 - approval requires confirmed current file and revision
+  ---
+  duration_ms: 0.3333
+  ...
+# Subtest: history is append-only for state transitions
+ok 6 - history is append-only for state transitions
+  ---
+  duration_ms: 0.176601
+  ...
+# Subtest: approval is not successful publication
+ok 7 - approval is not successful publication
+  ---
+  duration_ms: 0.169648
+  ...
+# Subtest: year validation rejects non-four-digit years
+ok 8 - year validation rejects non-four-digit years
+  ---
+  duration_ms: 0.11453
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 59.496489
+
+Static relative-import check: PASS
+Vite build and browser tests: NOT RUN (dependencies unavailable).
