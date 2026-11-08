@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {LABELS,SAMPLE,canApprove,event,makeSubmission,validateCorrection,validateMetadata} from '../src/lib/workflow.mjs';
+const intake={author:SAMPLE.author,faculty:SAMPLE.faculty,department:SAMPLE.department,language:SAMPLE.language};
+test('new uploads start processing immediately',()=>{const s=makeSubmission(intake,null,true);assert.equal(s.status,'processing');assert.equal('staged' in LABELS,false);assert.equal('stagedUntil' in s,false);});
+test('sample metadata is complete',()=>assert.deepEqual(validateMetadata(SAMPLE),[]));
+test('real files never receive fabricated extracted values',()=>{const s=makeSubmission(intake,{name:'real.pdf',type:'application/pdf'},false);assert.equal(s.metadata.title,'');assert.equal(s.metadata.abstract,'');assert.ok(validateMetadata(s.metadata).length>0);});
+test('Other requires explanation and at least one item',()=>{assert.ok(validateCorrection([],''));assert.ok(validateCorrection(['Other'],'  '));assert.equal(validateCorrection(['Other'],'Add page numbers'),'');assert.equal(validateCorrection(['Abstract is missing or incomplete'],''),'');});
+test('approval requires confirmed current file and revision',()=>{let s=makeSubmission(intake,null,true);s={...s,status:'review',confirmedFileVersion:1,confirmedRevision:1};assert.equal(canApprove(s),true);assert.equal(canApprove({...s,fileVersion:2}),false);assert.equal(canApprove({...s,revision:2}),false);assert.equal(canApprove({...s,status:'confirmation'}),false);assert.equal(canApprove({...s,corrections:[{resolved:false}]}),false);assert.equal(canApprove({...s,metadata:{...s.metadata,title:''}}),false);});
+test('history is append-only for state transitions',()=>{const original=makeSubmission(intake,null,true);const next=event(original,'confirmation','Processing complete','Demo worker');assert.equal(original.events.length,1);assert.equal(next.events.length,2);assert.equal(next.status,'confirmation');assert.equal(original.status,'processing');});
+test('approval is not successful publication',()=>{const s=makeSubmission(intake,null,true);const approved=event(s,'approved','Approved','Reviewer');assert.notEqual(approved.status,'submitted');const failed=event(approved,'publication_failed','Failure','Worker');assert.notEqual(failed.status,'submitted');assert.equal(failed.publications.length,0);});
+test('year validation rejects non-four-digit years',()=>{assert.ok(validateMetadata({...SAMPLE,year:'26'}).length);});
