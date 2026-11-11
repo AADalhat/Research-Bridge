@@ -1,0 +1,56 @@
+{
+  "job_id": "ec1bdd0d-190d-4f3d-b42f-d3a0006975ad",
+  "file_path": "C:\\Users\\DELL 3520\\Desktop\\ai worker\\Section B AI Fundamentals.pdf",
+  "classification": "digital",
+  "pages_processed": 15,
+  "total_pages_in_doc": 32,
+  "status": "completed",
+  "candidate_metadata_raw": "{\n  \"title\": \"AI-Driven Power Availability Prediction and Energy Optimization System for Zaria: A Comprehensive AI Framework for Reliable Energy Management in Nigerian Context\",\n  \"subject_keywords\": [\n    \"Artificial Intelligence\",\n    \"Power Availability Prediction\",\n    \"Energy Optimization\",\n    \"Machine Learning\",\n    \"Deep Learning\",\n    \"Time-Series Forecasting\",\n    \"Energy Management\",\n    \"Nigerian Context\",\n    \"Explainable AI\",\n    \"Fairness and Bias\"\n  ],\n  \"abstract\": \"Frequent electricity outages remain one of the most critical infrastructural challenges affecting academic activities, small businesses, healthcare services, and household productivity across Nigeria. In Zaria, unstable electricity supply significantly disrupts learning environments, commercial operations, and access to digital services. This report presents a comprehensive Artificial Intelligence (AI)-driven framework for predicting power availability and optimizing energy usage within the Nigerian context. The proposed system integrates machine learning, deep learning, probabilistic reasoning, reinforcement learning, and explainable AI techniques to forecast electricity outages and support intelligent energy management. The framework utilizes multiple data sources including historical outage records, weather information, smart meter readings, infrastructure data, and crowdsourced user feedback to improve prediction accuracy and operational efficiency. Beyond technical performance, the report critically examines ethical and contextual challenges associated with AI deployment in Nigeria, including data imbalance, infrastructural limitations, socioeconomic bias, fairness, transparency, accountability, and user trust. A hybrid human-AI architecture combining Human-in-the-Loop (HITL) and Human-on-the-Loop (HOTL) supervision is proposed to ensure responsible automation and reduce risks associated with fully autonomous decision-making. The system also incorporates continuous learning mechanisms, fairness audits, explainable AI models, and user feedback integration to improve long-term reliability and adaptability. Overall, the proposed framework demonstrates how AI can be responsibly applied to address real-world energy management challenges in Zaria while balancing technical innovation with societal, ethical, and contextual considerations.\",\n  \"evidence\": {\n    \"title\": [\n      {\n        \"page_number\": 1,\n        \"source_text\": \"AI-Driven Power Availability Prediction and Energy Optimization\\nSystem for Zaria\\nA Comprehensive AI Framework for Reliable Energy Management in Nigerian Context\"\n      }\n    ],\n    \"subject_keywords\": [\n      {\n        \"page_number\": 4,\n        \"source_text\": \"This report presents a comprehensive Artificial Intelligence (AI)-driven framework for predicting power availability and optimizing energy usage within the Nigerian context.\"\n      },\n      {\n        \"page_number\": 4,\n        \"source_text\": \"The proposed system integrates machine learning, deep learning, probabilistic reasoning, reinforcement learning, and explainable AI techniques to forecast electricity outages and support intelligent energy management.\"\n      }\n    ],\n    \"abstract\": [\n      {\n        \"page_number\": 4,\n        \"source_text\": \"Frequent electricity outages remain one of the most critical infrastructural challenges affecting academic activities, small businesses, healthcare services, and household productivity across Nigeria. In Zaria, unstable electricity supply significantly disrupts learning environments, commercial operations, and access to digital services. This report presents a comprehensive Artificial Intelligence (AI)-driven framework for predicting power availability and optimizing energy usage within the Nigerian context.\\nThe proposed system integrates machine learning, deep learning, probabilistic reasoning, reinforcement learning, and explainable AI techniques to forecast electricity outages and support intelligent energy management. The framework utilizes multiple data sources including historical outage records, weather information, smart meter readings, infrastructure data, and crowdsourced user feedback to improve prediction accuracy and operational efficiency.\\nBeyond technical performance, the report critically examines ethical and contextual challenges associated with AI deployment in Nigeria, including data imbalance, infrastructural limitations, socioeconomic bias, fairness, transparency, accountability, and user trust. A hybrid human-AI architecture combining Human-in-the-Loop (HITL) and Human-on-the-Loop (HOTL) supervision is proposed to ensure responsible automation and reduce risks associated with fully autonomous decision-making.\\nThe system also incorporates continuous learning mechanisms, fairness audits, explainable AI models, and user feedback integration to improve long-term reliability and adaptability. Overall, the proposed framework demonstrates how AI can be responsibly applied to address real-world energy management challenges in Zaria while balancing technical innovation with societal, ethical, and contextual considerations.\"\n      }\n    ]\n  }\n}",
+  "candidate_metadata": {
+    "title": "AI-Driven Power Availability Prediction and Energy Optimization System for Zaria: A Comprehensive AI Framework for Reliable Energy Management in Nigerian Context",
+    "subject_keywords": [
+      "Artificial Intelligence",
+      "Power Availability Prediction",
+      "Energy Optimization",
+      "Machine Learning",
+      "Deep Learning",
+      "Time-Series Forecasting",
+      "Energy Management",
+      "Nigerian Context",
+      "Explainable AI",
+      "Fairness and Bias"
+    ],
+    "abstract": "Frequent electricity outages remain one of the most critical infrastructural challenges affecting academic activities, small businesses, healthcare services, and household productivity across Nigeria. In Zaria, unstable electricity supply significantly disrupts learning environments, commercial operations, and access to digital services. This report presents a comprehensive Artificial Intelligence (AI)-driven framework for predicting power availability and optimizing energy usage within the Nigerian context. The proposed system integrates machine learning, deep learning, probabilistic reasoning, reinforcement learning, and explainable AI techniques to forecast electricity outages and support intelligent energy management. The framework utilizes multiple data sources including historical outage records, weather information, smart meter readings, infrastructure data, and crowdsourced user feedback to improve prediction accuracy and operational efficiency. Beyond technical performance, the report critically examines ethical and contextual challenges associated with AI deployment in Nigeria, including data imbalance, infrastructural limitations, socioeconomic bias, fairness, transparency, accountability, and user trust. A hybrid human-AI architecture combining Human-in-the-Loop (HITL) and Human-on-the-Loop (HOTL) supervision is proposed to ensure responsible automation and reduce risks associated with fully autonomous decision-making. The system also incorporates continuous learning mechanisms, fairness audits, explainable AI models, and user feedback integration to improve long-term reliability and adaptability. Overall, the proposed framework demonstrates how AI can be responsibly applied to address real-world energy management challenges in Zaria while balancing technical innovation with societal, ethical, and contextual considerations."
+  },
+  "evidence_data": {
+    "schema_version": 1,
+    "fields": {
+      "title": [
+        {
+          "page_number": 1,
+          "source_text": "AI-Driven Power Availability Prediction and Energy Optimization\nSystem for Zaria\nA Comprehensive AI Framework for Reliable Energy Management in Nigerian Context"
+        }
+      ],
+      "subject_keywords": [
+        {
+          "page_number": 4,
+          "source_text": "This report presents a comprehensive Artificial Intelligence (AI)-driven framework for predicting power availability and optimizing energy usage within the Nigerian context."
+        },
+        {
+          "page_number": 4,
+          "source_text": "The proposed system integrates machine learning, deep learning, probabilistic reasoning, reinforcement learning, and explainable AI techniques to forecast electricity outages and support intelligent energy management."
+        }
+      ],
+      "abstract": [
+        {
+          "page_number": 4,
+          "source_text": "Frequent electricity outages remain one of the most critical infrastructural challenges affecting academic activities, small businesses, healthcare services, and household productivity across Nigeria. In Zaria, unstable electricity supply significantly disrupts learning environments, commercial operations, and access to digital services. This report presents a comprehensive Artificial Intelligence (AI)-driven framework for predicting power availability and optimizing energy usage within the Nigerian context.\nThe proposed system integrates machine learning, deep learning, probabilistic reasoning, reinforcement learning, and explainable AI techniques to forecast electricity outages and support intelligent energy management. The framework utilizes multiple data sources including historical outage records, weather information, smart meter readings, infrastructure data, and crowdsourced user feedback to improve prediction accuracy and operational efficiency.\nBeyond technical performance, the report critically examines ethical and contextual challenges associated with AI deployment in Nigeria, including data imbalance, infrastructural limitations, socioeconomic bias, fairness, transparency, accountability, and user trust. A hybrid human-AI architecture combining Human-in-the-Loop (HITL) and Human-on-the-Loop (HOTL) supervision is proposed to ensure responsible automation and reduce risks associated with fully autonomous decision-making.\nThe system also incorporates continuous learning mechanisms, fairness audits, explainable AI models, and user feedback integration to improve long-term reliability and adaptability. Overall, the proposed framework demonstrates how AI can be responsibly applied to address real-world energy management challenges in Zaria while balancing technical innovation with societal, ethical, and contextual considerations."
+        }
+      ]
+    }
+  },
+  "output_file": null,
+  "error_message": null,
+  "created_at": "2026-11-09T20:47:46.941879+00:00",
+  "completed_at": "2026-11-09T20:47:51.653835+00:00"
+}
