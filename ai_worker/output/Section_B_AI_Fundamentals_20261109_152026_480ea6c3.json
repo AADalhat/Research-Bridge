@@ -1,0 +1,15 @@
+{
+  "job_id": "480ea6c3-4e39-41e9-ad68-98fd4467788c",
+  "file_path": "C:\\Users\\DELL 3520\\Desktop\\ai worker\\Section B AI Fundamentals.pdf",
+  "classification": "digital",
+  "pages_processed": 15,
+  "total_pages_in_doc": 32,
+  "status": "EXTRACTION_STALLED",
+  "candidate_metadata_raw": null,
+  "candidate_metadata": null,
+  "evidence_data": null,
+  "output_file": null,
+  "error_message": "Gemini API request failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+  "created_at": "2026-11-09T15:20:24.435548+00:00",
+  "completed_at": "2026-11-09T15:20:26.101550+00:00"
+}

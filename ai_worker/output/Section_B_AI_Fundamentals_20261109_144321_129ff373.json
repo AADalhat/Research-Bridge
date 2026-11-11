@@ -1,0 +1,15 @@
+{
+  "job_id": "129ff373-49d8-4007-9610-ff6af4026250",
+  "file_path": "C:\\Users\\DELL 3520\\Desktop\\ai worker\\Section B AI Fundamentals.pdf",
+  "classification": "digital",
+  "pages_processed": 15,
+  "total_pages_in_doc": 32,
+  "status": "EXTRACTION_STALLED",
+  "candidate_metadata_raw": null,
+  "candidate_metadata": null,
+  "evidence_data": null,
+  "output_file": null,
+  "error_message": "GEMINI_API_KEY is not configured. LLM extraction cannot proceed.",
+  "created_at": "2026-11-09T14:43:20.948307+00:00",
+  "completed_at": "2026-11-09T14:43:21.066048+00:00"
+}

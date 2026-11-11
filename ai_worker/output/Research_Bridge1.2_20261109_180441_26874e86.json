@@ -1,0 +1,15 @@
+{
+  "job_id": "26874e86-49bf-4737-addb-634389686059",
+  "file_path": "C:\\Users\\DELL 3520\\Desktop\\ai worker\\Research_Bridge1.2.pdf",
+  "classification": "digital",
+  "pages_processed": 2,
+  "total_pages_in_doc": 2,
+  "status": "EXTRACTION_STALLED",
+  "candidate_metadata_raw": null,
+  "candidate_metadata": null,
+  "evidence_data": null,
+  "output_file": null,
+  "error_message": "Gemini API request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "created_at": "2026-11-09T18:04:35.242215+00:00",
+  "completed_at": "2026-11-09T18:04:41.270718+00:00"
+}

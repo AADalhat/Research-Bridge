@@ -1,0 +1,15 @@
+{
+  "job_id": "03170b16-dbde-4315-9981-66a6621054dc",
+  "file_path": "C:\\Users\\DELL 3520\\Desktop\\ai worker\\Research_Bridge1.2.pdf",
+  "classification": "digital",
+  "pages_processed": 2,
+  "total_pages_in_doc": 2,
+  "status": "EXTRACTION_STALLED",
+  "candidate_metadata_raw": null,
+  "candidate_metadata": null,
+  "evidence_data": null,
+  "output_file": null,
+  "error_message": "GEMINI_API_KEY is not configured. LLM extraction cannot proceed.",
+  "created_at": "2026-11-09T14:26:03.932067+00:00",
+  "completed_at": "2026-11-09T14:26:03.960679+00:00"
+}
