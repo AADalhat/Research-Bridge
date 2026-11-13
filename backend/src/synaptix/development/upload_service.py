@@ -210,3 +210,48 @@ class DevelopmentUploadService:
                     "Could not remove temporary upload for submission %s",
                     submission_id,
                 )
+    def list_for_reviewer(
+        self,
+        *,
+        reviewer_id: str,
+        faculty: str | None = None,
+        department: str | None = None,
+    ) -> list[SubmissionUploadRead]:
+        """List verified development uploads, excluding self-review."""
+
+        faculty_filter = faculty.strip().casefold() if faculty else None
+        department_filter = (
+            department.strip().casefold() if department else None
+        )
+
+        with self._lock:
+            results = []
+
+            for record in self._records.values():
+                if record.owner_id == reviewer_id:
+                    continue
+
+                result = record.result
+
+                if result.verification_status != "completed":
+                    continue
+
+                if (
+                    faculty_filter
+                    and result.faculty.casefold() != faculty_filter
+                ):
+                    continue
+
+                if (
+                    department_filter
+                    and result.department.casefold() != department_filter
+                ):
+                    continue
+
+                results.append(result.model_copy(deep=True))
+
+        return sorted(
+            results,
+            key=lambda result: result.created_at,
+            reverse=True,
+        )
